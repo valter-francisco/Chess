@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    class Board
+    public class Board
     {
-        Array[,] board = new Array[7, 7];
+       public static Array[,] board = new Array[7, 7];
     }
 }

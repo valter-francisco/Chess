@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    class Pieces
+    public class Pieces
     {
-        string Color { get; set; }
+        public string Color { get; set; }
 
-        int startingLine { get; set; }
-
-        int startingColumn { get; set; }
+        
     }
 }
